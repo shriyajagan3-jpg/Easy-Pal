@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Easy-Pal",
+  "version": "0.1.0",
+  "description": "Rewrites any webpage so neurodivergent kids can understand it. On-device first, cloud when needed.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Make it simple"
+  },
+  "permissions": ["activeTab", "scripting", "storage"]
+}

@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+
+# Your Firebase config + App Check debug token. Never commit this.
+src/secrets.js

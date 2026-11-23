@@ -1,0 +1,41 @@
+body {
+  width: 380px;
+  margin: 0;
+  padding: 16px;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fffdf7;
+  color: #222;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+h1 {
+  font-size: 18px;
+  margin: 0;
+}
+.badge {
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #eee;
+}
+.badge.local { background: #e3f7e8; color: #146c2e; }
+.badge.cloud { background: #e3eefc; color: #1a4e9c; }
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  border: none;
+  border-radius: 12px;
+  background: #6c5ce7;
+  color: white;
+  cursor: pointer;
+}
+button:disabled { opacity: 0.6; cursor: wait; }
+.status { color: #666; font-size: 14px; min-height: 1em; }
+.output p { margin: 0 0 10px; }
